@@ -1,0 +1,62 @@
+
+/* كلام متحرك */
+#www::after{
+    content: "";
+    animation-duration: 5s;
+    animation-name: www;
+    animation-iteration-count: infinite;
+}
+
+@keyframes www{
+    0%{content: "|";}
+    5%{content: "F|";}
+    10%{content: "Fo|";}
+    15%{content: "For|";}
+    20%{content: "For E|";}
+    25%{content: "For Ea|";}
+    30%{content: "For Eas|";}
+    35%{content: "For Easy|";}
+    40%{content: "For Eas|";}
+    45%{content: "For Ea|";}
+    50%{content: "For E|";}
+    55%{content: "For|";}
+    60%{content: "Fo|";}
+    65%{content: "F|";}
+    70%{content: "|";}
+    
+
+}
+
+#www{
+    margin-top: 250px;
+    color: aliceblue;
+    text-align: center;
+    font-size: 34px;
+    margin-left: 80px;
+    font-family: fangsong;
+}
+
+
+#wwt{
+    background-color: black;
+}
+
+
+#wwy{
+        margin-top: 326px;
+    height: 299px;
+}
+
+#xss{
+    height: 85vh;
+}
+
+#aaa{
+    background-color: aliceblue;
+    height: 250px;
+}
+
+#bbb{
+    
+    background: revert-layer;
+}
